@@ -44,9 +44,6 @@ Whether you're trying to understand specific workflows or looking for best pract
 
    how-to-guides/*
 
-.. todo::
-    - New ``tudat`` function, module, class
-
 Explanation
 -----------
 The Explanation section provides in-depth understanding and context for key concepts and mechanisms. It aims to clarify

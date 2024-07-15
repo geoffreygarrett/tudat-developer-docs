@@ -19,7 +19,7 @@ automates the process of creating and maintaining a feedstock repository for a
 package, which can then be used to build and upload the package to `Anaconda
 Cloud`_. Packages on `Anaconda Cloud`_ can then be installed using ``conda
 install``. For all repositories discussed in the `GitHub in the Tudat Ecosystem
-<github.html>`_ section, there is a corresponding feedstock repository on the
+<github-in-the-tudat-ecosystem.html>`_ section, there is a corresponding feedstock repository on the
 `Tudat Team <https://github.com/tudat-team>`_ organization on GitHub. For
 example, the feedstock repository for the tudatpy package is found as
 `tudatpy-feedstock <https://github.com/tudat-team/tudatpy-feedstock>`_, as seen

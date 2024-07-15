@@ -1,8 +1,6 @@
 Welcome
 =======
-
 .. epigraph::
-
     This documentation serves as a comprehensive guide for developers who
     aspire to contribute to the Tudat project. Whether you're setting up your
     development environment or diving into the intricacies of the codebase,
@@ -10,7 +8,6 @@ Welcome
 
 Introduction
 ------------
-
 Welcome, Developers! This platform is designed to equip you with all the
 necessary information to contribute effectively to the Tudat project. It
 includes guidelines for setting up your development environment, building the
@@ -18,7 +15,6 @@ Tudat project, and contributing code.
 
 Getting Started
 ---------------
-
 If you're new to Tudat or are setting up your development environment for the
 first time, start here. This section provides a primer on the essential topics
 you need to understand before you dive into the codebase.
@@ -48,6 +44,9 @@ Whether you're trying to understand specific workflows or looking for best pract
 
    how-to-guides/*
 
+.. todo::
+    - New ``tudat`` function, module, class
+
 Explanation
 -----------
 The Explanation section provides in-depth understanding and context for key concepts and mechanisms. It aims to clarify
@@ -62,6 +61,8 @@ principles and rationale.
 
    explanation/*
 
+.. todo::
+    - CI/CD pipeline and its components
 
 Reference
 ---------
@@ -136,8 +137,6 @@ comprehensive information about the classes, functions, and variables that make 
 
     :ref:`Autocompletion in Python`
 
-
-
 .. toctree::
    :maxdepth: 3
    :caption: Primer
@@ -147,34 +146,3 @@ comprehensive information about the classes, functions, and variables that make 
    primer/docs
    primer/software
    primer/bib
-
-Follow tutorials that demonstrate specific tasks that concern the maintenance,
-development, and documentation of Tudat.
-
-.. note:: The following items are **placeholders**.
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Guides
-
-   guides/defining_environment_variables
-   guides/managing_access_tokens
-   guides/contribution_checklist
-   guides/new_conda_package
-   guides/new_forge_feedstock
-   guides/new_tudat_function
-   guides/new_tudat_class
-   guides/new_tudat_module
-   guides/pdf_with_sphinx
-   guides/hybrid_modules
-
-.. toctree::
-   :maxdepth: 3
-   :caption: Resources
-   :hidden:
-
-   resources/commands
-   resources/tools
-   changelog <./../CHANGELOG>
-
-.. todo:: (*) Rename ``rerendering_a_feedstock.rst`` to  ``rerendering_feedstocks.rst``

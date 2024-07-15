@@ -56,6 +56,7 @@ rediraffe_redirects = {
     "guides/hybrid_modules.rst": "how-to-guides/create-hybrid-tudatpy-modules.rst",
     "guides/new_forge_feedstock.rst": "how-to-guides/create-a-conda-feedstock.rst",
     "primer/devops/versioning.rst": "how-to-guides/version-package-releases.rst",
+    "primer/software/autocompletion.rst": "explanation/autocompletion-in-python.rst",
     "guides/defining_environment_variables.rst": "how-to-guides/define-program-environment-variables.rst",
     "guides/contribution_checklists.rst": "reference/contribution-checklists.rst",
     "resources/commands.rst": "reference/commands.rst",
@@ -80,4 +81,18 @@ html_js_files = [
 
 # -- Customizations and Features ---------------------------------------------
 panels_add_fontawesome_latex = True
-todo_include_todos = False
+# Define the environments that should not include todos
+EXCLUDE_TODO_ENVIRONMENTS = {'main', 'release', 'hotfix', 'fix', 'chore'}
+
+
+# Function to check if a given tag is a semantic versioning tag
+def is_semantic_version(tag: str) -> bool:
+    semver_pattern = r'^\d+\.\d+\.\d+(-\w+(\.\w+)*)?$'
+    return re.match(semver_pattern, tag) is not None
+
+
+# Determine if todos should be included based on the READTHEDOCS_GIT_IDENTIFIER environment variable
+todo_include_todos = not (
+        (git_identifier := os.environ.get('READTHEDOCS_GIT_IDENTIFIER', 'dev')) in EXCLUDE_TODO_ENVIRONMENTS or
+        is_semantic_version(git_identifier)
+)

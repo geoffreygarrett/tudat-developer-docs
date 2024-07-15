@@ -74,66 +74,6 @@ comprehensive information about the classes, functions, and variables that make 
 
    reference/*
 
-.. panels::
-    :container: container-lg pb-3
-    :column: col-lg-4 col-md-4 col-sm-6 col-xs-12 p-2
-
-    ---
-
-    .. link-button:: Development Operations
-          :type: ref
-          :text: Development Operations
-          :classes: btn-outline-primary btn-block
-
-    ^^^
-
-    :ref:`Code Collaboration`
-
-    :ref:`Release versioning`
-
-    :ref:`Package Management`
-
-    :ref:`Continuous Deployment`
-
-    ---
-
-    .. link-button:: Software Documentation
-          :type: ref
-          :text: Software Documentation
-          :classes: btn-outline-primary btn-block
-
-    ^^^
-
-
-    :ref:`Sphinx Documentation`
-
-    :ref:`Release an online version`
-
-    :ref:`Multidoc`
-
-    :ref:`How to write docstrings`
-
-    ---
-
-    .. link-button:: Software Development
-          :type: ref
-          :text: Software Development
-          :classes: btn-outline-primary btn-block
-
-    ^^^
-
-    :ref:`Build System`
-
-    :ref:`Developer Environment`
-
-    :ref:`Extending Features`
-
-    :ref:`Exposing C++ to Python`
-    
-    :ref:`Exposing kernel modules directly through tudatpy`
-
-    :ref:`Autocompletion in Python`
-
 .. toctree::
    :maxdepth: 3
    :caption: Primer

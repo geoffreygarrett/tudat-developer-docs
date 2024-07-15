@@ -60,7 +60,11 @@ rediraffe_redirects = {
     "guides/defining_environment_variables.rst": "how-to-guides/define-program-environment-variables.rst",
     "guides/contribution_checklists.rst": "reference/contribution-checklists.rst",
     "resources/commands.rst": "reference/commands.rst",
-    "resources/tools.rst": "reference/tools.rst"
+    "resources/tools.rst": "reference/tools.rst",
+    "primer/software/environment.rst": "explanation/developer-environment-tudat-bundle.rst",
+    "primer/software/exposing_cpp.rst": "how-to-guides/expose-cpp-to-python.rst",
+    "primer/software/kernel_module_exposure.rst": "how-to-guides/expose-kernel-modules-in-tudatpy.rst",
+    "primer/docs/docstrings.rst": "how-to-guides/write-docstrings-for-tudat.rst",
 }
 
 # -- HTML Output Options -----------------------------------------------------

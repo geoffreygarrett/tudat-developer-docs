@@ -62,7 +62,7 @@ of a _hybrid_ C++/_Python_ module), and we can **freely automatically generate**
 **overwriting the existing ones**, as these files will **never be manually changed**.
 
 Basically, this way we allow users to change ``__init__.py``, and keep the liberty to blast away old versions
-of all ``_import_all_kernel_members.py``s when the kernel changes.
+of all ``_import_all_kernel_members.py`` instances when the kernel changes.
 
 How the process is automated
 ----------------------------
@@ -85,10 +85,10 @@ The ``build_and_expose_kernel.sh`` [3]_ script automates the process of compilin
 References
 ----------
 
-.. [1] `https://github.com/pybind/pybind11/issues/2639`_
-.. [2] `https://github.com/tudat-team/tudatpy/blob/master/expose_kernel_module.py`_
-.. [3] `https://github.com/tudat-team/tudat-bundle/blob/main/build_and_expose_kernel.sh`_
-.. [4] `https://github.com/tudat-team/tudatpy/pull/128`_
-.. [5] `https://github.com/tudat-team/tudatpy/blob/master/tudatpy/math/interpolators/_import_all_kernel_members.py`_
-.. [6] `https://github.com/tudat-team/tudatpy/blob/master/tudatpy/math/interpolators/__init__.py`_
-.. [7] `https://github.com/tudat-team/tudat-bundle/blob/main/build.sh`_
+.. [1] `<https://github.com/pybind/pybind11/issues/2639>`_
+.. [2] `<https://github.com/tudat-team/tudatpy/blob/master/expose_kernel_module.py>`_
+.. [3] `<https://github.com/tudat-team/tudat-bundle/blob/main/build_and_expose_kernel.sh>`_
+.. [4] `<https://github.com/tudat-team/tudatpy/pull/128>`_
+.. [5] `<https://github.com/tudat-team/tudatpy/blob/master/tudatpy/math/interpolators/_import_all_kernel_members.py>`_
+.. [6] `<https://github.com/tudat-team/tudatpy/blob/master/tudatpy/math/interpolators/__init__.py>`_
+.. [7] `<https://github.com/tudat-team/tudat-bundle/blob/main/build.sh>`_

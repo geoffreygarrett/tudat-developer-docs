@@ -1,7 +1,7 @@
 .. _create-hybrid-tudatpy-modules:
 
-Create Hybrid C++/Python modules in `tudatpy`
-=============================================
+Create Hybrid C++/Python modules in ``tudatpy``
+===============================================
 
 This example shows how to create a hybrid C++/Python module in `tudatpy`.
 
@@ -23,8 +23,8 @@ Then, we will consider the case in which you have created an entirely new C++ `t
 module, a Python script which makes use of its members to provide some functionality, and
 want to expose them both.
 
-Combining C++ and Python functionality in an existing `tudatpy` module
-----------------------------------------------------------------------
+Combining C++ and Python functionality in an existing ``tudatpy`` module
+------------------------------------------------------------------------
 
 The directory `tudatpy/tudatpy` contains all `tudatpy` modules, both the ones which wrap C++ `tudat` kernel
 modules and those which are pure Python.
